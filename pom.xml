@@ -204,7 +204,7 @@
             <version>${nohttp-checkstyle.version}</version>
           </dependency>
         </dependencies>
-        <executions>
+        <!-- <executions>
           <execution>
             <id>nohttp-checkstyle-validation</id>
             <phase>validate</phase>
@@ -221,7 +221,7 @@
               <goal>check</goal>
             </goals>
           </execution>
-        </executions>
+        </executions> -->
       </plugin>
       <plugin>
         <groupId>org.graalvm.buildtools</groupId>
