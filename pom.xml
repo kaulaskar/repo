@@ -36,6 +36,18 @@
     <spring-format.version>0.0.40</spring-format.version>
 
   </properties>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-releases</name>
+        <url>http://3.93.237.158:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-snapshots</name>
+        <url>http://3.93.237.158:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+  </distributionManagement>
 
   <dependencies>
     <!-- Spring and Spring Boot dependencies -->
